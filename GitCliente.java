@@ -49,6 +49,11 @@ public class GitClient {
 
     public void setLicencia(String licencia) {
         this.licencia = licencia;
-    }     
+    }  
+
+    @Override
+    public String toString() {
+        return "GitClient{" + "cliente=" + cliente + ", version=" + version + ", sistemOper=" + sistemOper + ", licencia=" + licencia + '}';
+    }   
     
 }
